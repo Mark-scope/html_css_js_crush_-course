@@ -1,0 +1,35 @@
+*{
+      margin: 0;
+}
+.banner {
+     height: 100vh;
+     background-color: rgb(53, 177, 94);
+    display: flex;
+    justify-content: space-between;
+    }
+    .right {
+        background-color: coral;
+    }
+    .left {
+        background-color: cornflowerblue;
+        display: flex;
+        flex-direction: column;
+         justify-content: center; 
+        /* align-items: center; */
+        align-items: left;
+        /* margin: 50px 20px 50px 60px; */
+        color: cornsilk;
+        
+    }
+    .img, h1, p {
+        margin: 20px;
+    }
+    button {
+        padding: 20px;
+        width: 200px;
+        outline: none;
+        font-size: 20px;
+        font-weight: 900;
+        letter-spacing: 3px;
+        margin: 20px;
+    }

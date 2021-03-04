@@ -1,0 +1,22 @@
+.main {
+     background-color:  aquamarine;
+    }
+.nav {
+    display: flex
+}
+#brand {
+     color: rgb(201, 36, 126);
+}
+.mbody {
+    display: flex
+}
+.ban { 
+    min-height: 18ch;
+background-color: rgb(240, 148, 240);}
+footer {
+     background-color: darkgray;
+}
+#menu {
+    display: flex
+    display
+}
