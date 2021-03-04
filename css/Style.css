@@ -24,4 +24,6 @@ footer {
 git status 
 git add
 git status
-git commit -m"message" */
+git commit -m"message"
+git push ( but use git push origin master when working on a new project)
+ ( use : git push -f origin master , when you change the directory ) */
