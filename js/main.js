@@ -77,3 +77,18 @@ let ans=divide(9,3)
 console.log(ans)
 
 // Use document.write() to type html codes on the DOM
+
+
+//DOM manupulation
+
+let button = document.getElementById("btn")
+//console.log(username);
+
+button.addEventListener(
+    "click",function(){
+    let username = document.getElementById("username")
+    let password = document.getElementById("password")
+    
+    console.log(username.value,password.value) // which can also be writen  us console.log() respectively
+}
+)
