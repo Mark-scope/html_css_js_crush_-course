@@ -86,9 +86,24 @@ let button = document.getElementById("btn")
 
 button.addEventListener(
     "click",function(){
+        // or "click",()>>{
     let username = document.getElementById("username")
+   // or let username = document.querySelector("username")
     let password = document.getElementById("password")
+   // oe let password = document.querySelector("password")
     
     console.log(username.value,password.value) // which can also be writen  us console.log() respectively
+    alert(usernamw.value+" "+password.value);
 }
+)
+
+
+// Display username dynamically
+let displaybutton = document.getElementById("displaybutton")
+displaybutton.addEventListener("click", function(){
+    let username = document.getElementById("username")
+    let h1 = document.getElementById("h1")
+    h1.innerHTML = username.value
+}
+
 )
